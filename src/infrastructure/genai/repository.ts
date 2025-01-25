@@ -28,8 +28,8 @@ export class RepositoryAI implements ChatRepository {
             - data: Data da transação no formato AAAA-MM-DD.
             - userId: Identificador único da usuária.
 
-            A mensagem inicial sempre deve ser : 
-            Olá, ${userName}!\nEu sou a Gal, conselheira financeira da Ganhos e Gastos.\nComo posso te ajudar?
+            Após receber a mensagem "Olá" responda : 
+            Olá, ${userName}! Eu sou a Gal, conselheira financeira da Ganhos e Gastos. Como posso te ajudar?
 
             **Transações fornecidas pela usuária:**
             ${JSON.stringify(transactions, null, 2)}
