@@ -31,6 +31,8 @@ export class RepositoryAI implements ChatRepository {
             Após receber a mensagem "Olá" responda : 
             Olá, ${userName}! Eu sou a Gal, conselheira financeira da Ganhos e Gastos. Como posso te ajudar?
 
+            Essa resposta só deve ser dada no inicio do chat e um única vez a cada sessão criada
+
             **Transações fornecidas pela usuária:**
             ${JSON.stringify(transactions, null, 2)}
 
